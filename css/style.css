@@ -210,7 +210,7 @@ h4{
     align-items: center;
 }
 .body_10{
-    max-width: 1440px;
+    width: 100%;
 }
 .new_button{
     position: absolute;
@@ -228,6 +228,9 @@ h4{
 }
 .text_mini_container{
     width: 150%;
+}
+.text_mini_container:hover{
+    cursor: pointer;
 }
 .margin_footer{
     margin-bottom: 60px;
@@ -385,6 +388,7 @@ a{
 .contenant_header_menu{
     display: flex;
     align-items: center;
+    width: 100%;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -411,7 +415,7 @@ a{
 }
 .titre_nav_menu{
     padding-top: 30px;
-    width: 1440px;
+    width: 100%;
     position: absolute;
     background-color: #f0f0f0;
     border-top-left-radius: 40px;
@@ -518,11 +522,6 @@ a{
 .color_button{
     color: white;
 }
-.body_10{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* animation menu */
 .all_cards1{
     animation-duration: 2s;
@@ -790,5 +789,8 @@ a{
     }
     .coeur2{
         margin-left: 0px;
+    }
+    footer{
+        text-align: start;
     }
 }
