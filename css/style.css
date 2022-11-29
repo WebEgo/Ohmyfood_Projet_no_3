@@ -261,6 +261,14 @@ h4{
     -webkit-text-stroke-width: 0;
 }
 
+.fa-heart:hover{
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: remplissage 0.2s forwards;
+    -webkit-text-stroke-width: 0;
+}
+
+
 @keyframes remplissage{
         0%{
         background-image: linear-gradient(175deg, transparent 100%, #fc91de 0%, #a778e2 0%);
