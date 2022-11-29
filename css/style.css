@@ -99,7 +99,7 @@ button:hover {
     display: flex;
     margin-top: 10px;
     margin-left: 220px;
-    color: #00FF00;
+    color: green;
 }
 .bouton_nav{
     width: 330px;
