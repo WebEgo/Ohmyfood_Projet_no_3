@@ -422,6 +422,7 @@ a{
 }
 .contenant_img_menu{
     display: flex;
+    width: 100%;
     height: 640px;
     position: absolute;
     z-index: -1;
@@ -444,7 +445,7 @@ a{
 .img_width_mn{
     position: relative;
     max-width: 100%;
-    width: 1440px;
+    width: 100%;
     object-fit: cover;
 }
 #mini_text{
@@ -475,6 +476,7 @@ a{
     background-color: #fff;
     cursor: pointer;
 }
+
 .desc {
     padding: 5px;
 }
