@@ -406,7 +406,7 @@ a{
     margin-bottom: 10px;
 }
 .icon_return{
-    width: 700px;
+    width: 550px;
     margin-left: 100px;
     transform: scale(1.2);
 }
@@ -466,7 +466,7 @@ a{
 .card {
     display: flex;
     flex-direction: row;
-    width: 97%;
+    width: 100%;
     height: 50px;
     border-radius: 10px;
     overflow: hidden;
@@ -540,6 +540,7 @@ a{
 /* animation menu */*
 .all_cards1, .all_cards2, .all_cards3{
     display: flex;
+    width: 100%;
 }
 .all_cards1{
     animation: fadein 1s; 
@@ -703,7 +704,7 @@ a{
     .img_width_mn{
         position: relative;
         max-width: 100%;
-        width: 850px;
+        width: 100%;
         object-fit: cover;
     }
     .container_body{
@@ -738,7 +739,7 @@ a{
         width: 100%;
     }
     .card {
-        width: 340px;
+        width: 90%;
         animation-duration: 2s;
         animation-name: tel;
     }
