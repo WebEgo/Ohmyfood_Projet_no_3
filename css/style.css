@@ -545,12 +545,12 @@ a{
 .all_cards2{
     animation-duration: 2s;
     animation-name: slidein;
-    animation-delay: 200ms;
+    animation-delay: 400ms;
 }
 .all_cards3{
     animation-duration: 2s;
     animation-name: slidein; 
-    animation-delay: 400ms;
+    animation-delay: 600ms;
 }
 
 @keyframes slidein {
