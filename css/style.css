@@ -537,61 +537,31 @@ a{
 .color_button{
     color: white;
 }
-/* animation menu */
+/* animation menu */*
+.all_cards1, .all_cards2, .all_cards3{
+    display: flex;
+}
 .all_cards1{
-    animation-duration: 2s;
-    animation-name: slidein; 
+    animation: fadein 2s; 
 }
 .all_cards2{
-    animation-duration: 2s;
-    animation-name: slidein;
-    animation-delay: 400ms;
+    animation-delay: 4000ms;
+    animation: fadein 4s;
 }
 .all_cards3{
-    animation-duration: 2s;
-    animation-name: slidein; 
-    animation-delay: 600ms;
+    animation-delay: 6000ms;
+    animation: fadein 6s;
 }
 
-@keyframes slidein {
+@keyframes fadein {
     0% {
         opacity: 0;
-        width: 100%;
-        margin-left: 100%;
     }
-
+    50%{
+        opacity: 0.2;
+    }
     100% {
         opacity: 1;
-        width: 100%;
-        margin-left: 0%;
-    }
-}
-
-@keyframes tablette {
-    0% {
-        opacity: 0;
-        width: 100%;
-        margin-left: 100%;
-    }
-
-    100% {
-        opacity: 1;
-        width: 95%;
-        margin-left: 3%;
-    }
-}
-
-@keyframes tel {
-    0% {
-        opacity: 0;
-        width: 100%;
-        margin-left: 100%;
-    }
-
-    100% {
-        opacity: 1;
-        width: 95%;
-        margin-left: 0%;
     }
 }
 
