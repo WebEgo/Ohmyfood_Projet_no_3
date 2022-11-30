@@ -542,15 +542,15 @@ a{
     display: flex;
 }
 .all_cards1{
-    animation: fadein 2s; 
+    animation: fadein 1s; 
 }
 .all_cards2{
-    animation-delay: 4000ms;
-    animation: fadein 4s;
+    animation-delay: 2000ms;
+    animation: fadein 2s;
 }
 .all_cards3{
-    animation-delay: 6000ms;
-    animation: fadein 6s;
+    animation-delay: 3000ms;
+    animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -696,6 +696,9 @@ a{
         width: 95%;
         animation-duration: 2s;
         animation-name: tablette;
+    }
+    .all_cards1, .all_cards2, .all_cards3{
+        display: block;
     }
     .img_width_mn{
         position: relative;
